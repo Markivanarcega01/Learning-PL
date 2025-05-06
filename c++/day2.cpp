@@ -6,4 +6,5 @@ int main(){
     string b = "world";
 
     cout << a+b;
+    return 0;
 }
