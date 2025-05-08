@@ -4,11 +4,10 @@ using namespace std;
 
 int main()
 {
-    // Sample comment
-    string textWithWhiteSpace = "        This is a sample text        ";
-    textWithWhiteSpace.erase(remove(textWithWhiteSpace.begin(), 
-    textWithWhiteSpace.end(), ' '), 
-    textWithWhiteSpace.end());
-    cout << textWithWhiteSpace;
+    string name = "jhin";
+    int age = 24;
+    double weight = 56.6;
+    bool isGraduate = true;
+    char middleInitial = 'L';
     return 0;
 }
