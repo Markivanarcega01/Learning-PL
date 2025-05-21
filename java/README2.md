@@ -1,365 +1,407 @@
-# Days 1–30: Java Basics & Syntax
-Day 1. Install Java JDK and set up your IDE (e.g., IntelliJ or Eclipse)
-Day 2. Write your first “Hello, World!” program
-Day 3. Understand Java program structure (class, main method)
-Day 4. Learn about variables and data types (int, double, char, boolean)
-Day 5. Practice declaring and initializing variables
-Day 6. Learn about arithmetic operators (+, -, *, /, %)
-Day 7. Practice simple arithmetic operations in Java
-Day 8. Understand and use comments (single-line, multi-line)
-Day 9. Learn about string data type and string concatenation
-Day 10. Practice printing variables and strings with System.out.println
-Day 11. Understand input using Scanner class
-Day 12. Write a program that takes user input and prints it
-Day 13. Learn about Java keywords and identifiers
-Day 14. Understand type casting and conversion
-Day 15. Practice explicit and implicit type casting
-Day 16. Learn about Java constants (final keyword)
-Day 17. Understand basic control flow: if statements
-Day 18. Use if-else and nested if-else statements
-Day 19. Learn switch-case syntax and practice simple examples
-Day 20. Understand loops: for loop basics
-Day 21. Practice while loops and do-while loops
-Day 22. Learn break and continue statements in loops
-Day 23. Write a program to print multiplication tables using loops
-Day 24. Understand arrays: declaration and initialization
-Day 25. Practice iterating through arrays with loops
-Day 26. Learn about multi-dimensional arrays
-Day 27. Practice nested loops with 2D arrays
-Day 28. Learn about Java methods: declaration and calling
-Day 29. Practice passing parameters to methods
-Day 30. Understand method return types and returning values
+# Java 365-Day Learning Plan: Task-Oriented and Progressive
 
-# Days 31–60: Object-Oriented Programming (OOP) Basics
-Day 31. Understand the concept of classes and objects
-Day 32. Create simple classes with fields and methods
-Day 33. Learn about constructors and constructor overloading
-Day 34. Practice creating objects and calling methods
-Day 35. Understand the this keyword
-Day 36. Learn about encapsulation and private fields
-Day 37. Practice getter and setter methods
-Day 38. Understand method overloading
-Day 39. Practice method overloading examples
-Day 40. Learn about static variables and methods
-Day 41. Understand the difference between instance and static members
-Day 42. Practice creating static methods and fields
-Day 43. Learn about final keyword with variables, methods, and classes
-Day 44. Understand inheritance basics (extends keyword)
-Day 45. Practice creating a subclass and using inherited methods
-Day 46. Learn about method overriding
-Day 47. Practice overriding methods with @Override annotation
-Day 48. Understand polymorphism basics
-Day 49. Practice using polymorphism with superclass references
-Day 50. Learn about abstract classes and abstract methods
-Day 51. Practice creating abstract classes and implementing subclasses
-Day 52. Understand interfaces and their use
-Day 53. Practice creating interfaces and implementing them
-Day 54. Learn about multiple inheritance via interfaces
-Day 55. Understand default methods in interfaces (Java 8+)
-Day 56. Practice interface default and static methods
-Day 57. Learn about the Object class and commonly overridden methods (toString, equals)
-Day 58. Practice overriding toString() method
-Day 59. Practice overriding equals() and hashCode() methods
-Day 60. Review and write a small OOP-based program (e.g., Bank Account system)
+# BASICS (Days 1–30)
+Day 1. Install Java JDK and set up your IDE (e.g., IntelliJ IDEA or Eclipse)
+Day 2. Write your first “Hello World” program
+Day 3. Print your name and age using System.out.println()
+Day 4. Declare and initialize int, float, boolean, and String variables
+Day 5. Add two integers and display the result
+Day 6. Multiply two numbers and display the result
+Day 7. Use input from user using Scanner (e.g., get name & age)
+Day 8. Use arithmetic operators (+, -, *, /, %) in a small program
+Day 9. Create a program that converts Celsius to Fahrenheit
+Day 10. Practice type casting (e.g., int to double and vice versa)
+Day 11. Use if to check if a number is positive or negative
+Day 12. Create a program to check if a number is even or odd
+Day 13. Use if...else to print grades based on score
+Day 14. Use switch to print days of the week
+Day 15. Use a for loop to print numbers 1–10
+Day 16. Use a while loop to sum numbers from 1–100
+Day 17. Use a do...while loop to create a password check
+Day 18. Write a program to find the factorial of a number
+Day 19. Use nested loops to print a triangle pattern
+Day 20. Create a simple calculator using switch-case
+Day 21. Create a program to reverse a number
+Day 22. Check if a number is a palindrome
+Day 23. Check if a number is prime
+Day 24. Print Fibonacci series up to N numbers
+Day 25. Find LCM and GCD of two numbers
+Day 26. Create a multiplication table generator
+Day 27. Calculate sum of digits of a number
+Day 28. Count number of vowels in a string
+Day 29. Print ASCII values of A–Z
+Day 30. Swap two variables (with and without a temp variable)
 
-# Days 61–90: Java Core APIs & Exception Handling
-Day 61. Learn about String methods and immutability
-Day 62. Practice common String methods: length, substring, equals, etc.
-Day 63. Learn StringBuilder and StringBuffer basics
-Day 64. Practice modifying strings using StringBuilder
-Day 65. Understand wrapper classes (Integer, Double, etc.)
-Day 66. Practice autoboxing and unboxing
-Day 67. Learn about arrays utility class (Arrays methods)
-Day 68. Practice sorting and searching with Arrays class
-Day 69. Understand Java Collections Framework overview
-Day 70. Learn about List interface and ArrayList class
-Day 71. Practice basic ArrayList operations (add, remove, iterate)
-Day 72. Learn about LinkedList and difference with ArrayList
-Day 73. Practice LinkedList methods
-Day 74. Learn about Set interface and HashSet implementation
-Day 75. Practice using HashSet and understand uniqueness of elements
-Day 76. Learn about Map interface and HashMap implementation
-Day 77. Practice basic HashMap operations (put, get, remove)
-Day 78. Learn about exception handling basics: try-catch
-Day 79. Practice handling multiple exceptions
-Day 80. Understand finally block and its use
-Day 81. Learn about throwing exceptions (throw keyword)
-Day 82. Understand checked vs unchecked exceptions
-Day 83. Practice creating custom exception classes
-Day 84. Learn about try-with-resources for automatic resource management
-Day 85. Practice using try-with-resources with files
-Day 86. Learn basic file I/O using FileReader and BufferedReader
-Day 87. Practice reading text files line by line
-Day 88. Learn basic file writing with FileWriter and BufferedWriter
-Day 89. Practice writing strings to a file
-Day 90. Review Collections and Exception Handling with small exercises
+# OBJECT-ORIENTED BASICS (Days 31–60)
+Day 31. Create a simple class with attributes and methods
+Day 32. Instantiate an object and access its methods
+Day 33. Add a constructor to your class
+Day 34. Create multiple constructors using overloading
+Day 35. Implement getter and setter methods
+Day 36. Create a class Car with attributes and behavior
+Day 37. Implement encapsulation using private fields
+Day 38. Use this keyword to reference current object
+Day 39. Demonstrate use of static variables and methods
+Day 40. Create a static counter for number of objects
+Day 41. Inherit a class using extends
+Day 42. Override a method from parent class
+Day 43. Use super keyword to access superclass methods
+Day 44. Demonstrate method overloading
+Day 45. Demonstrate method overriding
+Day 46. Create a polymorphic reference (parent ref → child obj)
+Day 47. Abstract a class and implement it
+Day 48. Implement an interface
+Day 49. Use multiple interfaces
+Day 50. Create a real-world example of inheritance (e.g., Animal → Dog)
+Day 51. Demonstrate upcasting and downcasting
+Day 52. Use instanceof keyword
+Day 53. Explore the Object class methods (toString, equals)
+Day 54. Override equals() and hashCode()
+Day 55. Use an enum in your class
+Day 56. Create a singleton class
+Day 57. Use final with variables, methods, and classes
+Day 58. Create inner and static nested classes
+Day 59. Demonstrate anonymous class
+Day 60. Create a simple UML class diagram from your code
 
-# Days 91–120: Advanced OOP & Java 8 Features
-Day 91. Understand inner classes and nested classes
-Day 92. Practice creating and using inner classes
-Day 93. Learn about anonymous classes and usage
-Day 94. Practice creating anonymous inner classes
-Day 95. Understand lambda expressions basics
-Day 96. Practice simple lambda expressions for Runnable and functional interfaces
-Day 97. Learn about functional interfaces and @FunctionalInterface annotation
-Day 98. Practice using Java built-in functional interfaces (Predicate, Function)
-Day 99. Understand method references and practice them
-Day 100. Learn Stream API basics: creating streams
-Day 101. Practice filtering and mapping with streams
-Day 102. Understand stream terminal operations: collect, forEach, reduce
-Day 103. Practice collecting stream results into lists
-Day 104. Learn Optional class basics and usage
-Day 105. Practice using Optional to avoid null checks
-Day 106. Understand default and static methods in interfaces revisited
-Day 107. Learn Date and Time API (java.time package) basics
-Day 108. Practice creating and manipulating LocalDate and LocalTime
-Day 109. Learn about Duration and Period classes
-Day 110. Practice formatting and parsing dates
-Day 111. Understand and use Comparator interface for sorting
-Day 112. Practice sorting collections with custom comparators
-Day 113. Learn enum types and their usage
-Day 114. Practice creating and using enums
-Day 115. Understand annotations and meta-annotations
-Day 116. Practice creating custom annotations
-Day 117. Learn basics of reflection API
-Day 118. Practice getting class information at runtime
-Day 119. Understand serialization basics and Serializable interface
-Day 120. Practice serializing and deserializing objects
+# DATA STRUCTURES & ALGORITHMS (Days 61–120)
 
-# Days 121–150: Concurrency and Multithreading
-Day 121. Understand basic thread concepts and lifecycle
-Day 122. Create and start threads by extending Thread class
-Day 123. Create and start threads by implementing Runnable interface
-Day 124. Practice thread sleep and yield methods
-Day 125. Understand thread priorities
-Day 126. Learn about thread synchronization basics
-Day 127. Practice synchronized methods and blocks
-Day 128. Understand deadlock and how to avoid it
-Day 129. Learn about volatile keyword
-Day 130. Practice using volatile variables
-Day 131. Understand ThreadLocal and its use cases
-Day 132. Learn about Executors framework basics
-Day 133. Practice creating fixed thread pools with Executors
-Day 134. Understand Callable interface and Future objects
-Day 135. Practice submitting Callable tasks and getting results
-Day 136. Learn about CountDownLatch and CyclicBarrier
-Day 137. Practice CountDownLatch to wait for multiple threads
-Day 138. Understand Semaphore basics
-Day 139. Practice using Semaphore for resource control
-Day 140. Learn about concurrent collections (ConcurrentHashMap)
-Day 141. Practice using concurrent collections
-Day 142. Understand atomic variables (AtomicInteger)
-Day 143. Practice atomic operations
-Day 144. Learn about ForkJoinPool basics
-Day 145. Practice simple ForkJoin tasks
-Day 146. Understand thread-safe singleton pattern
-Day 147. Practice implementing thread-safe singleton
-Day 148. Learn about CompletableFuture basics
-Day 149. Practice async programming with CompletableFuture
-Day 150. Review concurrency topics with coding challenges
+# Arrays & Strings (Days 61–80)
+Day 61. Declare, initialize, and print elements of an array
+Day 62. Find the max and min in an array
+Day 63. Sum all elements in an array
+Day 64. Find duplicate elements in an array
+Day 65. Reverse an array
+Day 66. Search for an element in an array (linear search)
+Day 67. Sort an array using bubble sort
+Day 68. Sort an array using selection sort
+Day 69. Merge two arrays
+Day 70. Copy one array into another
+Day 71. 2D array: create a matrix and display it
+Day 72. Add two 2D matrices
+Day 73. Multiply two matrices
+Day 74. Transpose a matrix
+Day 75. Count occurrences of a character in a string
+Day 76. Reverse a string without using built-in methods
+Day 77. Check if a string is a palindrome
+Day 78. Convert string to char array and back
+Day 79. Split a sentence into words
+Day 80. Find longest word in a sentence
 
-# Days 151–180: Java I/O and Networking
-Day 151. Understand Java I/O streams basics
-Day 152. Practice using InputStream and OutputStream
-Day 153. Learn about Reader and Writer classes
-Day 154. Practice reading and writing character streams
-Day 155. Understand buffered streams and their advantages
-Day 156. Practice using BufferedReader and BufferedWriter
-Day 157. Learn about DataInputStream and DataOutputStream
-Day 158. Practice reading/writing primitive data types with DataStreams
-Day 159. Understand ObjectInputStream and ObjectOutputStream
-Day 160. Practice serializing and deserializing objects with Object streams
-Day 161. Learn about file operations using java.nio.file package
-Day 162. Practice basic file operations with Files class (copy, move, delete)
-Day 163. Understand Path and Paths classes
-Day 164. Practice walking file trees with Files.walk
-Day 165. Learn about Java Networking basics: Sockets
-Day 166. Practice creating a simple client-server socket program
-Day 167. Understand ServerSocket basics
-Day 168. Practice handling multiple client connections with threads
-Day 169. Learn about URL class and HTTP connections
-Day 170. Practice fetching web content using HttpURLConnection
-Day 171. Understand Java NIO non-blocking I/O basics
-Day 172. Practice reading/writing files using NIO Channels
-Day 173. Learn about ByteBuffer and CharBuffer classes
-Day 174. Practice buffer flipping and clearing
-Day 175. Understand Selectors and multiplexing in NIO
-Day 176. Practice writing a simple NIO server
-Day 177. Learn basics of SSL sockets for secure communication
-Day 178. Practice creating SSL client and server sockets
-Day 179. Understand JavaMail API basics (overview)
-Day 180. Review I/O and networking with practical mini-project
+# Collections Framework (Days 81–100)
+Day 81. Introduction to ArrayList: add, remove, get
+Day 82. Loop through an ArrayList
+Day 83. Sort an ArrayList of strings
+Day 84. Use LinkedList: addFirst, addLast, removeFirst
+Day 85. Use HashSet to store unique values
+Day 86. Use TreeSet to sort elements automatically
+Day 87. Use HashMap to store key-value pairs
+Day 88. Retrieve value from HashMap by key
+Day 89. Loop through HashMap using entrySet
+Day 90. Count word frequencies using HashMap
+Day 91. Use Stack to reverse a string
+Day 92. Use Queue (LinkedList) for FIFO processing
+Day 93. Implement a basic priority queue
+Day 94. Convert list to set and back
+Day 95. Use Collections.sort() with custom comparator
+Day 96. Shuffle and rotate a list
+Day 97. Find max and min using Collections.max()
+Day 98. Convert Map to a list of keys
+Day 99. Iterate using ListIterator and modify list
+Day 100. Compare performance of ArrayList vs LinkedList
 
-# Days 181–210: Java GUI and JavaFX Basics
-Day 181. Understand Java Swing basics and create a JFrame
-Day 182. Practice adding buttons and labels to JFrame
-Day 183. Learn about event handling with ActionListener
-Day 184. Practice handling button clicks
-Day 185. Understand layout managers (FlowLayout, BorderLayout)
-Day 186. Practice using different layout managers
-Day 187. Learn about JTextField and JTextArea usage
-Day 188. Practice reading input from text fields
-Day 189. Understand JComboBox and JList components
-Day 190. Practice populating and handling selection events
-Day 191. Learn basics of JavaFX and setting up JavaFX project
-Day 192. Create a simple JavaFX window and scene
-Day 193. Practice adding buttons and labels in JavaFX
-Day 194. Learn about JavaFX layout panes (HBox, VBox, GridPane)
-Day 195. Practice layout management in JavaFX
-Day 196. Understand JavaFX event handling
-Day 197. Practice handling button clicks in JavaFX
-Day 198. Learn about JavaFX properties and bindings
-Day 199. Practice simple data binding examples
-Day 200. Understand JavaFX controls like TextField and TextArea
-Day 201. Practice reading and updating controls in JavaFX
-Day 202. Learn about JavaFX observable lists and tables
-Day 203. Practice displaying data in TableView
-Day 204. Understand styling JavaFX with CSS
-Day 205. Practice applying CSS styles to JavaFX components
-Day 206. Learn about JavaFX animations basics
-Day 207. Practice simple animations (fade, translate)
-Day 208. Understand dialogs and alerts in Swing and JavaFX
-Day 209. Practice creating and showing dialogs
-Day 210. Review GUI topics with a mini project (e.g., calculator)
+# Algorithms (Days 101–120)
+Day 101. Implement linear search
+Day 102. Implement binary search
+Day 103. Implement selection sort
+Day 104. Implement insertion sort
+Day 105. Implement bubble sort
+Day 106. Implement merge sort (2 arrays)
+Day 107. Implement quicksort
+Day 108. Find the first non-repeating character in a string
+Day 109. Find missing number in a series of 1 to N
+Day 110. Find all pairs in an array that sum to a target
+Day 111. Check if a string has all unique characters
+Day 112. Count frequency of all characters in a string
+Day 113. Remove duplicates from a sorted array
+Day 114. Implement matrix rotation (90 degrees)
+Day 115. Detect palindrome in a number using reverse logic
+Day 116. Rotate an array by k positions
+Day 117. Find the largest contiguous sum in an array (Kadane's Algo)
+Day 118. Implement a simple search engine using HashMap
+Day 119. Use recursion to calculate factorial
+Day 120. Use recursion to solve the Tower of Hanoi for 3 disks
 
-# Days 211–240: Java Database Connectivity (JDBC) & Persistence
-Day 211. Understand JDBC architecture and setup
-Day 212. Practice connecting to a database (e.g., SQLite or MySQL)
-Day 213. Learn how to execute simple SQL queries from Java
-Day 214. Practice executing SELECT queries and processing ResultSet
-Day 215. Learn to insert data into database using JDBC
-Day 216. Practice updating and deleting records via JDBC
-Day 217. Understand PreparedStatement to prevent SQL injection
-Day 218. Practice using PreparedStatement for parameterized queries
-Day 219. Learn about transactions and commit/rollback
-Day 220. Practice transaction management in JDBC
-Day 221. Understand connection pooling basics
-Day 222. Learn about ORM concepts overview (e.g., Hibernate)
-Day 223. Practice basic Hibernate setup and configuration
-Day 224. Learn about entity classes and annotations in Hibernate
-Day 225. Practice CRUD operations with Hibernate
-Day 226. Understand Hibernate session and transaction management
-Day 227. Learn JPQL (Java Persistence Query Language) basics
-Day 228. Practice JPQL queries
-Day 229. Understand lazy vs eager loading in Hibernate
-Day 230. Practice managing fetch strategies
-Day 231. Learn about caching in Hibernate
-Day 232. Practice first and second level cache usage
-Day 233. Understand criteria queries basics
-Day 234. Practice building criteria queries
-Day 235. Learn about database connection security best practices
-Day 236. Practice securing JDBC connections and credentials
-Day 237. Understand connection leaks and how to avoid them
-Day 238. Learn about batch processing in JDBC
-Day 239. Practice batch inserts and updates
-Day 240. Review database connectivity and persistence with mini project
+# FILE I/O, EXCEPTIONS, JAVA 8+ FEATURES (Days 121–180)
 
-# Days 241–270: Java Web Basics and Servlets
-Day 241. Understand Java web architecture basics
-Day 242. Learn about HTTP protocol and request-response cycle
-Day 243. Setup a simple Servlet project
-Day 244. Write your first HttpServlet and handle GET requests
-Day 245. Handle POST requests in Servlets
-Day 246. Understand servlet lifecycle methods (init, service, destroy)
-Day 247. Practice reading parameters from HttpServletRequest
-Day 248. Learn about HttpServletResponse and sending responses
-Day 249. Understand session management basics (HttpSession)
-Day 250. Practice creating and managing sessions
-Day 251. Learn about cookies and managing them in Servlets
-Day 252. Practice reading and writing cookies
-Day 253. Understand URL rewriting for session tracking
-Day 254. Learn basics of JSP (JavaServer Pages)
-Day 255. Practice writing simple JSP pages
-Day 256. Understand JSTL (JSP Standard Tag Library) basics
-Day 257. Practice using JSTL tags for looping and conditional logic
-Day 258. Learn about MVC architecture in Java web apps
-Day 259. Understand servlets as controllers and JSP as views
-Day 260. Practice building a simple MVC web app with Servlets and JSP
-Day 261. Learn about filters and their usage
-Day 262. Practice creating and configuring filters
-Day 263. Understand listeners and event handling in web apps
-Day 264. Practice using HttpSessionListener and ServletContextListener
-Day 265. Learn basics of file upload in Servlets
-Day 266. Practice handling file uploads with Servlet 3.0 API
-Day 267. Understand deployment descriptors (web.xml) basics
-Day 268. Practice configuring Servlets and filters in web.xml
-Day 269. Learn about annotations in Servlets (@WebServlet)
-Day 270. Review Java web basics with a simple CRUD web app
+# File Handling (Days 121–140)
+Day 121. Create a text file using File and FileWriter
+Day 122. Write content to a file
+Day 123. Read content from a file using FileReader
+Day 124. Read lines using BufferedReader
+Day 125. Append text to an existing file
+Day 126. Count number of lines in a file
+Day 127. Count number of words in a file
+Day 128. Copy content from one file to another
+Day 129. Delete a file using File.delete()
+Day 130. Check if file or directory exists
+Day 131. List all files in a directory
+Day 132. Create a directory programmatically
+Day 133. Use try-with-resources for file reading
+Day 134. Serialize an object to file
+Day 135. Deserialize an object from file
+Day 136. Compress a text file using ZipOutputStream
+Day 137. Extract a zipped file
+Day 138. Store user data (username/password) in a file
+Day 139. Save and retrieve student records from a file
+Day 140. Build a mini file-based notepad app (text input → file)
 
-# Days 271–300: Advanced Java Web & Frameworks
-Day 271. Understand Spring Framework basics and setup
-Day 272. Learn about Dependency Injection (DI) and Inversion of Control (IoC)
-Day 273. Practice creating Spring beans and configuration
-Day 274. Learn basics of Spring MVC architecture
-Day 275. Practice creating controllers and handling requests in Spring MVC
-Day 276. Understand Spring Boot overview and auto-configuration
-Day 277. Setup a Spring Boot project
-Day 278. Practice creating REST APIs with Spring Boot
-Day 279. Learn about Spring Data JPA basics
-Day 280. Practice CRUD operations with Spring Data JPA
-Day 281. Understand validation with Spring Validator and annotations
-Day 282. Practice form validation in Spring MVC
-Day 283. Learn about Spring Security basics
-Day 284. Practice configuring basic authentication
-Day 285. Understand REST principles and best practices
-Day 286. Practice creating RESTful services with proper HTTP methods
-Day 287. Learn about exception handling in Spring MVC
-Day 288. Practice custom exception handlers with @ControllerAdvice
-Day 289. Understand unit testing basics with JUnit
-Day 290. Practice writing unit tests for Java classes
-Day 291. Learn about Mockito basics for mocking dependencies
-Day 292. Practice writing unit tests with Mockito
-Day 293. Understand integration testing basics
-Day 294. Practice integration testing Spring Boot applications
-Day 295. Learn about caching in Spring
-Day 296. Practice adding caching with @Cacheable
-Day 297. Understand asynchronous method execution with Spring
-Day 298. Practice using @Async annotation
-Day 299. Learn basics of messaging with JMS
-Day 300. Review Spring and Java web advanced topics with mini project
+# Exception Handling (Days 141–155)
+Day 141. Create a program that throws an ArithmeticException
+Day 142. Handle exception using try-catch
+Day 143. Use finally block
+Day 144. Use multiple catch blocks
+Day 145. Catch NullPointerException and explain it
+Day 146. Catch ArrayIndexOutOfBoundsException
+Day 147. Create your own custom exception
+Day 148. Use throw to manually raise an exception
+Day 149. Use throws keyword in method signature
+Day 150. Nest try-catch blocks
+Day 151. Combine file handling with exception handling
+Day 152. Handle multiple exceptions with multi-catch (Java 7+)
+Day 153. Log exception stack trace using printStackTrace()
+Day 154. Build a simple calculator with exception handling
+Day 155. Create a global exception handler using a method
 
-# Days 301–335: Miscellaneous Advanced Topics
-Day 301. Understand Java Native Interface (JNI) basics
-Day 302. Learn about Java modules system (Java 9+)
-Day 303. Practice creating and using modules
-Day 304. Learn about Reactive programming basics (Project Reactor)
-Day 305. Practice simple reactive streams
-Day 306. Understand garbage collection basics
-Day 307. Learn how to analyze and tune GC logs
-Day 308. Understand memory leaks and prevention
-Day 309. Learn basics of profiling Java applications
-Day 310. Practice profiling with VisualVM or JProfiler
-Day 311. Understand design patterns basics
-Day 312. Practice Singleton and Factory patterns
-Day 313. Practice Observer and Strategy patterns
-Day 314. Learn basics of build tools: Maven and Gradle
-Day 315. Practice building projects with Maven
-Day 316. Practice building projects with Gradle
-Day 317. Understand logging frameworks (java.util.logging, Log4j, SLF4J)
-Day 318. Practice adding logging to Java applications
-Day 319. Learn internationalization (i18n) basics
-Day 320. Practice resource bundles and locale handling
-Day 321. Understand annotations processing basics
-Day 322. Practice annotation processing tools (APT)
-Day 323. Learn basics of JavaFX advanced topics (custom controls)
-Day 324. Practice creating custom JavaFX controls
-Day 325. Understand Java security basics (policy files, permissions)
-Day 326. Learn about Java Cryptography Architecture (JCA) basics
-Day 327. Practice basic encryption and decryption
-Day 328. Understand basics of concurrency utilities (java.util.concurrent)
-Day 329. Practice CountDownLatch and Phaser
-Day 330. Learn basics of containerization with Docker and Java apps
-Day 331. Practice creating a Dockerfile for Java app
-Day 332. Understand microservices architecture basics
-Day 333. Learn Spring Cloud basics overview
-Day 334. Practice creating a simple microservice with Spring Boot
-Day 335. Review miscellaneous advanced topics
+# Java 8+ Functional Features (Days 156–180)
+Day 156. Write a lambda expression to sort an array
+Day 157. Use a lambda to iterate over a list
+Day 158. Use Predicate functional interface
+Day 159. Use Function and Consumer interfaces
+Day 160. Create a functional interface and use a lambda with it
+Day 161. Use method references with static and instance methods
+Day 162. Use constructor references
+Day 163. Use Optional to avoid nulls
+Day 164. Check value presence with Optional.isPresent()
+Day 165. Use Optional.orElse()
+Day 166. Use Stream.of() to process arrays
+Day 167. Use List.stream() to filter and print elements
+Day 168. Use map() to transform list elements
+Day 169. Use reduce() to sum values
+Day 170. Chain filter(), map(), collect() on a list
+Day 171. Convert a list of strings to uppercase using streams
+Day 172. Count words using streams and Collectors.groupingBy()
+Day 173. Flatten nested lists using flatMap()
+Day 174. Sort a list of objects using streams
+Day 175. Find the max/min in a list using streams
+Day 176. Create a pipeline of stream operations
+Day 177. Collect stream results into a map
+Day 178. Use Collectors.joining() to join strings
+Day 179. Compare streams vs for-loops for performance
+Day 180. Build a simple task list manager using Java 8 features
 
-# Days 336–365: Final Projects & Review
-Day 336–340. Build a Console-based Bank Management System using OOP principles
-Day 341–345. Build a Multi-threaded File Downloader
-Day 346–350. Build a Simple Chat Application using sockets
-Day 351–355. Build a JavaFX To-Do List App
-Day 356–360. Build a CRUD Web Application with Spring Boot and Thymeleaf
-Day 361–365. Review and polish previous projects, refactor code, add comments, and write documentation
+# MULTITHREADING, NETWORKING, JDBC (Days 181–240)
+
+# Multithreading Basics (Days 181–200)
+Day 181. Create a thread by extending Thread class
+Day 182. Create a thread by implementing Runnable interface
+Day 183. Start and run multiple threads concurrently
+Day 184. Use Thread.sleep() to pause thread execution
+Day 185. Use join() method to wait for thread completion
+Day 186. Thread priorities: set and get priority
+Day 187. Synchronize a method to avoid race conditions
+Day 188. Synchronize a block inside a method
+Day 189. Use volatile keyword with variables
+Day 190. Explain thread lifecycle states (new, runnable, waiting, terminated)
+Day 191. Use wait() and notify() for thread communication
+Day 192. Use notifyAll() to wake all waiting threads
+Day 193. Create a producer-consumer problem solution with threads
+Day 194. Create a deadlock scenario and explain it
+Day 195. Avoid deadlock by resource ordering
+Day 196. Use ThreadLocal variables
+Day 197. Use Executors framework to manage thread pools
+Day 198. Schedule tasks using ScheduledExecutorService
+Day 199. Create a simple thread-safe counter with AtomicInteger
+Day 200. Use Callable and Future to return results from threads
+
+# Networking Basics (Days 201–220)
+Day 201. Create a TCP server socket listening on a port
+Day 202. Create a TCP client socket connecting to a server
+Day 203. Send and receive messages between client and server
+Day 204. Close sockets and streams properly
+Day 205. Create a simple chat server handling multiple clients (basic)
+Day 206. Use DatagramSocket and DatagramPacket for UDP communication
+Day 207. Get local host IP and hostname
+Day 208. Use InetAddress to resolve a hostname
+Day 209. Download a web page content using URLConnection
+Day 210. Send an HTTP GET request and read the response
+Day 211. Use HttpURLConnection for HTTP POST requests
+Day 212. Set request headers for HTTP requests
+Day 213. Parse JSON response using a library (like Gson or Jackson)
+Day 214. Create a multi-threaded server that handles each client in a thread
+Day 215. Use URL and URI classes effectively
+Day 216. Read and write files over network sockets
+Day 217. Implement a simple file transfer client-server app
+Day 218. Use SSL sockets for secure communication basics
+Day 219. Create a heartbeat/ping system for client-server health checks
+Day 220. Log network activities (connection, data transfer)
+
+# JDBC & Databases (Days 221–240)
+Day 221. Set up a local database (e.g., MySQL or SQLite)
+Day 222. Connect to database using JDBC driver
+Day 223. Execute a simple SELECT query and print results
+Day 224. Execute INSERT query using PreparedStatement
+Day 225. Execute UPDATE and DELETE queries
+Day 226. Use transactions with commit and rollback
+Day 227. Handle SQL exceptions properly
+Day 228. Use ResultSetMetaData to get column info dynamically
+Day 229. Close JDBC resources in finally or try-with-resources
+Day 230. Use batch updates for multiple inserts/updates
+Day 231. Use connection pooling basics (HikariCP or built-in)
+Day 232. Query database metadata
+Day 233. Use stored procedures with JDBC
+Day 234. Map result set to Java objects manually
+Day 235. Create DAO (Data Access Object) pattern classes
+Day 236. Handle date and time types in JDBC
+Day 237. Use SQL LIKE and wildcard queries
+Day 238. Perform joins (INNER, LEFT, RIGHT) via queries and JDBC
+Day 239. Use transactions isolation levels
+Day 240. Create a small Java app that stores and retrieves user info from DB
+
+# JAVA FX, GUI APPLICATIONS, JUNIT TESTING (Days 241–300)
+# JavaFX & GUI Basics (Days 241–270)
+Day 241. Set up JavaFX environment and create a simple window
+Day 242. Add a button to JavaFX window and handle click events
+Day 243. Create a text field and get input from user
+Day 244. Use labels and style text
+Day 245. Create a layout using HBox and VBox
+Day 246. Use GridPane layout for form design
+Day 247. Add images and icons to your GUI
+Day 248. Use ListView to display list of items
+Day 249. Handle ListView selection events
+Day 250. Create and use menus (MenuBar, Menu, MenuItem)
+Day 251. Use CheckBox and RadioButton controls
+Day 252. Create and style ComboBox (dropdown)
+Day 253. Use CSS to style JavaFX components
+Day 254. Add tooltips to controls
+Day 255. Create dialogs and alert boxes
+Day 256. Use event handlers for mouse and keyboard input
+Day 257. Create a simple calculator GUI app
+Day 258. Use Property and Binding for reactive UI
+Day 259. Animate a shape using Timeline
+Day 260. Load FXML files and separate UI from logic
+Day 261. Use SceneBuilder to design UI visually
+Day 262. Pass data between scenes in JavaFX
+Day 263. Create a login form with validation
+Day 264. Create a to-do list app with add/delete functionality
+Day 265. Use TableView to display tabular data
+Day 266. Implement search/filter on TableView data
+Day 267. Save and load app data to/from a file
+Day 268. Use threads to avoid blocking UI in JavaFX
+Day 269. Handle exceptions in JavaFX apps
+Day 270. Package JavaFX app as executable JAR
+
+# JUnit Testing Basics (Days 271–300)
+Day 271. Setup JUnit in your Java project
+Day 272. Write your first simple test method
+Day 273. Use assertions like assertEquals, assertTrue
+Day 274. Test a method that throws exceptions
+Day 275. Use @BeforeEach and @AfterEach annotations
+Day 276. Test private methods via public interface
+Day 277. Use @BeforeAll and @AfterAll for setup and teardown
+Day 278. Parameterized tests with different inputs
+Day 279. Group tests using @Nested classes
+Day 280. Ignore tests temporarily with @Disabled
+Day 281. Test expected exceptions using assertThrows
+Day 282. Test collection contents and size
+Day 283. Use mocks to isolate dependencies (Mockito intro)
+Day 284. Test multithreaded code (basic approach)
+Day 285. Use JUnit to test file reading/writing methods
+Day 286. Write tests for your JavaFX controllers
+Day 287. Test DAO/database layer methods with JUnit
+Day 288. Measure code coverage with a tool like JaCoCo
+Day 289. Use assertions with custom messages
+Day 290. Refactor code guided by test results
+Day 291. Use continuous integration to run tests automatically
+Day 292. Test performance-critical code (basic)
+Day 293. Handle flaky tests and stabilize them
+Day 294. Organize tests into suites
+Day 295. Mock static methods with Mockito
+Day 296. Use test lifecycle callbacks for setup/cleanup
+Day 297. Write tests for REST API endpoints (mock server)
+Day 298. Integrate JUnit tests into Maven or Gradle build
+Day 299. Write tests for exception handling scenarios
+Day 300. Create a test report and analyze failures
+
+# SPRING BOOT, REST APIs, FINAL PROJECTS (Days 301–365)
+# Spring Boot Basics (Days 301–320)
+Day 301. Set up a Spring Boot project using Spring Initializr
+Day 302. Create your first Spring Boot application with @SpringBootApplication
+Day 303. Understand Spring Boot auto-configuration
+Day 304. Create REST controller with @RestController and @GetMapping
+Day 305. Return JSON data from controller methods
+Day 306. Use @PostMapping to handle POST requests
+Day 307. Handle URL parameters with @PathVariable
+Day 308. Handle query parameters with @RequestParam
+Day 309. Use @RequestBody to accept JSON input
+Day 310. Create service layer with @Service annotation
+Day 311. Use dependency injection with @Autowired
+Day 312. Create a repository interface extending JpaRepository
+Day 313. Connect Spring Boot to a database (H2 or MySQL)
+Day 314. Configure application.properties for database settings
+Day 315. Use Spring Data JPA to perform CRUD operations
+Day 316. Handle exceptions with @ControllerAdvice and @ExceptionHandler
+Day 317. Enable CORS support for REST APIs
+Day 318. Implement logging in Spring Boot apps
+Day 319. Use Spring Boot Actuator to monitor your app
+Day 320. Build and run your Spring Boot app as a standalone jar
+
+# REST API Development (Days 321–345)
+Day 321. Design REST API endpoints for a simple resource (e.g., products)
+Day 322. Implement GET all and GET by ID endpoints
+Day 323. Implement POST to create a resource
+Day 324. Implement PUT to update a resource
+Day 325. Implement DELETE to remove a resource
+Day 326. Validate incoming JSON using @Valid and validation annotations
+Day 327. Customize error responses for validation failures
+Day 328. Add pagination support with Pageable
+Day 329. Add sorting support to API endpoints
+Day 330. Implement search/filter by criteria in REST APIs
+Day 331. Secure APIs with basic authentication
+Day 332. Secure APIs with JWT tokens (intro)
+Day 333. Implement API versioning using URL paths
+Day 334. Document your APIs with Swagger/OpenAPI
+Day 335. Test REST APIs with Postman or curl
+Day 336. Handle file uploads and downloads via REST APIs
+Day 337. Use DTOs (Data Transfer Objects) for API requests/responses
+Day 338. Map entities to DTOs with ModelMapper or manually
+Day 339. Use asynchronous REST endpoints with @Async
+Day 340. Use caching to speed up API responses
+Day 341. Implement rate limiting for your APIs
+Day 342. Log API request and response data
+Day 343. Handle API exceptions globally
+Day 344. Create API client using RestTemplate or WebClient
+Day 345. Write integration tests for REST APIs using MockMvc
+
+# Final Projects & Advanced Topics (Days 346–365)
+Day 346. Plan your final project: define scope and features
+Day 347. Set up project structure and tools (Maven/Gradle, Git)
+Day 348. Design database schema for your project
+Day 349. Create entity classes and repositories
+Day 350. Implement service layer with business logic
+Day 351. Build REST API endpoints for your project
+Day 352. Create frontend (JavaFX or simple web frontend) if desired
+Day 353. Add user authentication and authorization
+Day 354. Integrate third-party APIs if needed
+Day 355. Implement exception handling and validation
+Day 356. Add logging and monitoring features
+Day 357. Write unit and integration tests for your project
+Day 358. Document your code and APIs thoroughly
+Day 359. Prepare README and project documentation
+Day 360. Build and package your project for deployment
+Day 361. Deploy project locally or to cloud (Heroku, AWS, etc.)
+Day 362. Collect feedback and fix bugs
+Day 363. Refactor and optimize your codebase
+Day 364. Present your project (record video/demo or write a report)
+Day 365. Reflect on your journey, plan next learning goals, celebrate!
 
