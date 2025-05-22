@@ -18,31 +18,31 @@ int main(){
         cin >> guess1; 
         //cout << randomNumber << endl;
         if(guess1 > randomNumber1){
-            cout << "Guess is high" << endl;
+            cout << "Guess is HIGH" << endl;
         }else if(guess1 < randomNumber1){
-            cout << "Guess is low" << endl;
+            cout << "Guess is LOW" << endl;
         }
     }while(guess1 != randomNumber1);
     cout << "********************************************" << endl;
-    for(int i = 3; i >= 0; i--){
+    for(int i = 4; i >= 0; i--){
         cout << "Guess the 2nd number:";
         cin >> guess2;
         if(randomNumber2 == guess2){
             break;
         }else if(randomNumber2 > guess2){
-            cout << "Guess is low" << endl;
+            cout << "Guess is LOW" << endl;
         }else if(randomNumber2 < guess2){
-            cout << "Guess is high" << endl;
+            cout << "Guess is HIGH" << endl;
         }
         cout << i << " remaining" << endl;
         if(i == 0){
-            cout << "Random 2:" << randomNumber2 << endl;
+            cout << "You lose:" << randomNumber2 << endl;
             return 0;
         }
     }
     cout << "***********************************************" << endl;
 
-    int j = 5;
+    int j = 4;
     while(j >= 0){
         cout << "Guess the 3rd number:";
         cin >> guess3;
@@ -51,13 +51,13 @@ int main(){
             cout << "You won" << endl;
             break;
         }else if(randomNumber3 < guess3){
-            cout << "Guess is high" << endl;
+            cout << "Guess is HIGH" << endl;
         }else if(randomNumber3 > guess3){
-            cout << "Guess is low" << endl;
+            cout << "Guess is LOW" << endl;
         }
         cout << j << " remaining" << endl;
         if(j == 0){
-            cout << "Random 3:" << randomNumber3 << endl;
+            cout << "You lose:" << randomNumber3 << endl;
             return 0;
         }
         j--;
