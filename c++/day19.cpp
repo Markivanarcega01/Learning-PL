@@ -48,6 +48,7 @@ int main(){
         cin >> guess3;
 
         if(randomNumber3 == guess3){
+            cout << "You won" << endl;
             break;
         }else if(randomNumber3 < guess3){
             cout << "Guess is high" << endl;
@@ -57,6 +58,7 @@ int main(){
         cout << j << " remaining" << endl;
         if(j == 0){
             cout << "Random 3:" << randomNumber3 << endl;
+            return 0;
         }
         j--;
     }
