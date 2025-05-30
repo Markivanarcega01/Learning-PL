@@ -14,37 +14,46 @@ int main()
 
     for (int i = 1; i <= amount; i++)
     {
-        for (int j = 0; j <= amount*2-i; j++)
+        for (int j = 0; j <= amount * 2 - i; j++)
         {
-            if (j == amount-i)
+            if (j == amount - i)
             {
-                for (int k = 0; k < i*2-1; k++)
+                for (int k = 0; k < i * 2 - 1; k++)
                 {
                     cout << "*";
                 }
-            }else{
+            }
+            else
+            {
                 cout << " ";
             }
-            //cout << "a";
+            // cout << "a";
         }
 
         cout << endl;
     }
-
+    bool firstRun = true;
     for (int i = amount; i >= 1; i--)
     {
-        for (int j = i; j > 0; j--)
+        // cout << i << endl;
+        if (firstRun)
         {
-            if (j == i)
+            firstRun = false;
+            continue;
+        }
+        for (int j = amount * 2 - i; j >= 0; j--)
+        {
+            if (j == amount)
             {
-                for (int k = i*2-1; k > 0; k--)
+                for (int k = i * 2 - 1; k > 0; k--)
                 {
                     cout << "*";
                 }
-            }else{
-                cout << "A";
             }
-            //cout << "A";
+            else
+            {
+                cout << " ";
+            }
         }
 
         cout << endl;
