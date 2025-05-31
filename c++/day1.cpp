@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-    cout << "Hello world";
+void Log(string message){
+    message[0] = 'a';
+    cout << message << endl;
 }
+
+// int main(){
+//     cout << "Hello world";
+// }
