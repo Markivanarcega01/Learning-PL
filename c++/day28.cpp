@@ -8,7 +8,7 @@ int main(){
     double &modifiedGravity = gravity;
     modifiedGravity = 10;
 
-    std::cout << &modifiedGravity << std::endl;
+    std::cout << modifiedGravity << std::endl;
     std::cout << gravity;
 
     return 0;
