@@ -1,5 +1,18 @@
 #include <iostream>
 
+
+class Entity{
+    private:
+    int* m_X, m_Y;
+
+    public:
+    const int* const GetX() const{
+        //const are used to do read-only
+        //So complicated
+        return m_X;
+    }
+};
+
 int main(){
 
     const int num = 2; // Cannot change the value
